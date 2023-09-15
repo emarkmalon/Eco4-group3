@@ -91,7 +91,7 @@ padding: 4px;
     }
     .text-content {
         font-weight: bolder;
-        font-size: 39px;
+        font-size: 36px;
         color: #fff;
     }
 }
@@ -111,7 +111,7 @@ padding: 4px;
         border-radius: 5px;
         border-radius: 20px;
         border: 2px solid white;
-        height: 54vh;
+        height: 100%;
         text-align: left;
     }
 
@@ -124,7 +124,7 @@ padding: 4px;
   and (orientation: landscape) {
     .card {
         background-color: rgb(0,81, 20);
-        /* margin: 0px; */
+         margin: 0px; 
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -133,7 +133,7 @@ padding: 4px;
         border-radius: 5px;
         border-radius: 20px;
         border: 2px solid white;
-        /* height: 91%; */
+         height: 91%; 
         text-align: left;
     }
 }
