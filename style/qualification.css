@@ -5,7 +5,7 @@
  box-sizing: border-box;
  font-family: 'Poppins', sans-serif;
 }
-p{
+.Qualifying-Benefits p{
     color: #fff;
     font-family: 'Poppins';
 }
@@ -15,7 +15,7 @@ html{
 .Qualifying-Benefits{
  background-color: rgb(0,81, 20);
 padding:100px 0 0 0 ; 
-padding-bottom:45%;
+padding-bottom:3%;
 text-align: center;
 }
 .text-content{
@@ -23,7 +23,7 @@ font-weight: bolder;
 font-size: 42px;
 color: #fff;
 }
-.card{
+.Card{
 background-color: rgb(0,81, 20);
 margin: 60px;
 display: flex;
@@ -75,7 +75,7 @@ padding: 4px;
         flex-wrap: wrap;
         right: 80rem;
     }
-    .card {
+    .Card {
         background-color: rgb(0,81, 20);
         margin: 0px;
         display: flex;
@@ -100,7 +100,7 @@ padding: 4px;
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1)
   and (min-resolution: 192dpi) {
-    .card {
+    .Card {
         background-color: rgb(0,81, 20);
          margin: 0px; 
         display: flex;
@@ -122,7 +122,7 @@ padding: 4px;
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 2) 
   and (orientation: landscape) {
-    .card {
+    .Card {
         background-color: rgb(0,81, 20);
          margin: 0px; 
         display: flex;
