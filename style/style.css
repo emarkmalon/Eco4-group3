@@ -442,6 +442,168 @@ input[type="text"],
         color: #fff;
     }
 }
+.formSection{
+    padding: 50px 10px 30px;
+}
+.formSection h2{
+    font-family: 'poppinsbold';
+    color: rgb(0, 81, 11);
+    font-size: 30px;
+    text-align: center;
+}
+.formSection form{
+   width: 100%;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+label{
+    font-family: 'poppinssemibold';
+    color: rgb(0, 81, 11);
+    font-size: 15px;
+}
+.divContaining2Inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.formSection input{
+    border: 1px solid rgb(0, 81, 11);
+    border-radius: 19px;
+    height: 45px;
+    text-align: center;
+    font-family: 'poppinsregular';
+    font-size: 15px;
+    color: rgb(0, 81, 11);
+}
+.formSection input:focus{
+    outline: none;
+}
+.formCheckBoxsection{
+    margin: 30px 0px 30px;
+    font-family: 'poppinssemibold';
+    color: rgb(0, 81, 11);
+}
+.formCheckBoxsection p{
+    font-size: 15px;
+}
+.checkboxContainer{
+    display: flex;
+    gap: 20px;
+}
+.benefits-label{
+    display: flex;
+}
+.benefits-label input{
+    width: 40px;
+    height: 40px;
+}
+.benefits-label p{
+    margin: 13px 0px 0px 10px;
+}
+.formSubmitButton{
+    background-color: rgb(0, 81, 11);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-family: 'poppinssemibold';
+    padding: 10px 0px;
+    width: 200px; 
+}
+.formSection form a{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+
+/* 
+---------------  MEDIA QUERIES    MEDIA QUERIES  -----------------
+------------------------------------------------------------------ */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+.formSection{
+   padding: 50px 90px 30px;
+}
+.formSection h2{
+   text-align: left;
+}
+.form-group{
+   margin-top: 30px;
+}
+.divContaining2Inputs{
+   display: flex;
+   flex-direction: row;
+   gap: 40px;
+   width: 100%;
+}
+.divContaining2Inputs .form-group{
+   width: 50%;
+}
+
+}
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+.formSection h2{
+   font-size: 45px;
+}
+.form-group{
+    margin-top: 40px;
+}
+label{
+    font-size: 20px;
+}
+.formSection input{
+    height: 55px;
+    font-size: 20px;
+}
+.formCheckBoxsection p{
+    font-size: 20px;
+}
+.benefits-label p{
+    margin: 7px 0px 0px 15px;
+}
+.formSubmitButton{
+    padding: 15px 0px;
+    width: 230px; 
+}
+
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+.formSection{
+   padding: 50px 200px 30px;
+}
+.formSection h2{
+    font-size: 48px;
+}
+.form-group{
+    margin: 30px 0px 20px;
+}
+label{
+    font-size: 25px;
+}
+.formSection input{
+    height: 55px;
+}
+.formCheckBoxsection p{
+    font-size: 25px;
+}
+
+
+}
+
+
 
 
 
