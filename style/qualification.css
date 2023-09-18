@@ -1,0 +1,157 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+*{
+ padding: 0; 
+ margin: 0;  
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+}
+p{
+    color: #fff;
+    font-family: 'Poppins';
+}
+html{
+    overflow-x: hidden;
+}
+.Qualifying-Benefits{
+ background-color: rgb(0,81, 20);
+padding:100px 0 0 0 ; 
+padding-bottom:45%;
+text-align: center;
+}
+.text-content{
+font-weight: bolder;
+font-size: 42px;
+color: #fff;
+}
+.card{
+background-color: rgb(0,81, 20);
+margin: 60px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 20px;
+position: relative;
+border-radius: 5px;
+border-radius: 20px;
+border: 2px solid  white ;
+height: 54vh;
+text-align: left;
+}
+
+
+.wrapper{
+display: flex;
+}
+.button{
+    padding: 1rem 6.6rem;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: (rgb(197, 110, 110));
+    border-radius:30px;
+    border: 1px solid  #fff;
+    background-color: #fff;
+    line-height: 12rem;
+  }
+   a span{
+    color: rgb(0,81, 20);
+  }
+.star{
+    width: 7%;
+}
+.fa{
+color: rgb(73,193, 130);
+padding: 4px;
+}
+.wrapper span{
+ color: rgb(73,193, 130);
+ font-weight: bold;
+}
+ .Qualifying-text{
+    margin-bottom: 48px;
+} 
+@media (max-width:576px) {
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        right: 80rem;
+    }
+    .card {
+        background-color: rgb(0,81, 20);
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 30px;
+        position: relative;
+        border-radius: 5px;
+        border-radius: 20px;
+        border: 2px solid white;
+        height: 91%;  
+        text-align: left;
+    }
+    .text-content {
+        font-weight: bolder;
+        font-size: 36px;
+        color: #fff;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (min-resolution: 192dpi) {
+    .card {
+        background-color: rgb(0,81, 20);
+         margin: 0px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        position: relative;
+        border-radius: 5px;
+        border-radius: 20px;
+        border: 2px solid white;
+        height: 100%;
+        text-align: left;
+    }
+
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+    .card {
+        background-color: rgb(0,81, 20);
+         margin: 0px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 30px;
+        position: relative;
+        border-radius: 5px;
+        border-radius: 20px;
+        border: 2px solid white;
+         height: 91%; 
+        text-align: left;
+    }
+}
+
+/* ipone x */
+@media only screen 
+  and (max-device-width: 375px) 
+  and (min-device-height: 812px) 
+  and (-webkit-device-pixel-ratio: 3)
+  and (min-resolution: 192dpi)
+  and (orientation: portrait) {
+    .text-content {
+        font-weight: bolder;
+        font-size: 31px;
+        color: #fff;
+    }
+}
+
+
+
+
