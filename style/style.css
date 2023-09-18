@@ -14,7 +14,7 @@
     font-size: 30px;
     text-align: center;
 }
-form{
+.formSection form{
    width: 100%;
 }
 .form-group{
@@ -32,7 +32,7 @@ label{
     flex-direction: column;
     width: 100%;
 }
-input{
+.formSection input{
     border: 1px solid rgb(0, 81, 11);
     border-radius: 19px;
     height: 45px;
@@ -41,7 +41,7 @@ input{
     font-size: 15px;
     color: rgb(0, 81, 11);
 }
-input:focus{
+.formSection input:focus{
     outline: none;
 }
 .formCheckBoxsection{
@@ -75,7 +75,7 @@ input:focus{
     padding: 10px 0px;
     width: 200px; 
 }
-form a{
+.formSection form a{
     width: 100%;
     display: flex;
     text-decoration: none;
@@ -123,7 +123,7 @@ form a{
 label{
     font-size: 20px;
 }
-input{
+.formSection input{
     height: 55px;
     font-size: 20px;
 }
@@ -156,7 +156,7 @@ input{
 label{
     font-size: 25px;
 }
-input{
+.formSection input{
     height: 55px;
 }
 .formCheckBoxsection p{
